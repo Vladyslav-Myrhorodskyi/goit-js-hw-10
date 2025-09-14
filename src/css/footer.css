@@ -1,12 +1,15 @@
 .footer {
   padding: 20px 0;
 }
+
 .footer-desc {
   text-align: center;
 }
+
 .footer-link {
   position: relative;
 }
+
 .footer-link::before {
   content: '';
   position: absolute;
@@ -18,4 +21,5 @@
   height: 24%;
   background-color: #41d1ff;
   transition: 200ms ease;
+  color: rgb(215, 75, 29);
 }
